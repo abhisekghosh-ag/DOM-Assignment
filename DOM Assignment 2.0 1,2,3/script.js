@@ -15,3 +15,14 @@ search.placeholder = "Search My Project"
 
 let details = document.querySelector(".hero-left-section p span:last-child");
 details.innerText = "iNeuron Intelligence Pvt Ltd"
+
+//task 4: Change the profile picture
+
+let profile = document.querySelector(".hero-right-section img");
+profile.src = "./pic.jpeg"
+
+//task 5: Add a "Support Me" button after "Chat With Me" button
+
+let supportBtn = document.createElement("button");
+supportBtn.innerText = "Support Me";
+document.querySelector(".hero-right-section-btns").appendChild(supportBtn);
