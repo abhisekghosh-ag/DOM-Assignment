@@ -1,17 +1,12 @@
-let accordian = document.querySelectorAll(".accordian h3");
-accordian.forEach((element) => {
-  element.addEventListener("click", () => {
-    let para = element.nextElementSibling;
-    if (para.style.display === "block") {
-      para.style.display = "none";
-    } else {
-      para.style.display = "block";
-    }
-  });
-});
+## Assignment Two 
 
-// assignment two task 1 : change the bg color of about section's heading and paragraph
+### task 1 : change the bg color of about section's heading and paragraph
 
+![task 1](./task1Output.png)
+
+>solution:-
+
+```
 let accordianHeading = document.querySelectorAll(".accordian h3");
 let accordianPara = document.querySelectorAll(".accordian p");
 accordianHeading.forEach((e) => {
@@ -20,12 +15,15 @@ accordianHeading.forEach((e) => {
 accordianPara.forEach((e) => {
   e.style.backgroundColor = "#eeeeff"
 });
+```
 
+### task 2 : Replace the search's placeholder "search" to "Search My Project"
 
-// assignment two task 2 : add a skills section and add content on it.
+![task 2](./task2Output.png)
 
+>solution:-
 
-
+```
 let skillsdiv = document.createElement("div");
 
 let skillsh3 = document.createElement("h3");
@@ -49,3 +47,4 @@ skillsdiv.addEventListener("click", function () {
   }
 });
 document.querySelector(".accordian-wrapper").appendChild(skillsdiv);
+```
