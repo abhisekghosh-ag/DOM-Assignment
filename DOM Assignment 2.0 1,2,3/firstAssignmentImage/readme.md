@@ -39,7 +39,8 @@ details.innerText = "iNeuron Intelligence Pvt Ltd"
 >solution:-
 ```
 let profile = document.querySelector(".hero-right-section img");
-profile.src = "./pic.jpeg"
+profile.src = "./assets/pic.jpeg"
+
 ```
 
 ### task 5: Add a "Support Me" button after "Chat With Me" button
